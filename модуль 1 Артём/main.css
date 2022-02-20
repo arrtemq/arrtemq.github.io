@@ -1,0 +1,44 @@
+p{
+			color: black;
+			font-size: 30px;
+			font-family: Times New Roman;
+			margin: 25px;
+			padding: 0;
+			box-sizing: border-box;
+
+}
+		h1{
+			color: red;
+			font-size: 50px;
+			font-family: Cambria;
+		}
+		h2{
+			font-size: 40px;
+		}
+		h3{
+			color: black;
+			font-size: 25px;
+			font-family: arial;
+		}
+		a{
+			color: #7431BF;
+			font-size: 30px;
+		}
+		acronym{
+			font-size: 30px;
+		}
+		div{
+			width: 80%;
+			margin: auto;
+			padding: 50px;
+			background-color: #E4E2DC;
+			box-shadow: 0 0 20px 20px rgba(169, 169, 169);
+
+		}
+		img{
+			max-width: 100%;
+			height: auto;
+			display: block;
+
+		}
+	
