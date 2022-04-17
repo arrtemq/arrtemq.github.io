@@ -1,0 +1,13 @@
+@media all and(min-width: 1150px){
+	.trsprt:hover{
+		background-color: #1bab8c;
+		border-color: transparent;
+	}
+
+
+	.green:hover{
+		border: 2px solid white;
+		background-color: transparent;
+	}
+
+}
