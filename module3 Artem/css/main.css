@@ -1,0 +1,126 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body,main{
+	height: 100%;
+
+}
+.first{
+	height: 100%;
+	background-image: url(../app/img1.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.first p{
+	color: white;
+}
+.tourism{
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 20px;
+}
+.text-container{
+	widows: 40%;
+	margin-left: 15%;
+	margin-top: 15%;
+}
+.first-line{
+	text-transform: uppercase;
+	font-size: 28px;
+	opacity: 0.5;
+	font-weight: bold;
+	line-height: 1;
+	letter-spacing: 1px;
+}
+.second-line{
+	text-transform: uppercase;
+	font-size: 65px;
+	line-height: 1;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.third-line{
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.second{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.gallery-container{
+	width: 70%;
+	max-width: 1000px;
+
+}
+.img-container{
+	widows: 100%;
+	display: flex;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+}
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+.img1{
+	widht: 50%;
+}
+.wrapper{
+	margin-left: 20px;
+}
+.img2{
+	margin-bottom: 20px;
+}
+.gallery-text{
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.gallery-header{
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 1px;
+}
+.gallery-p{
+	font-size: 17px;
+}
+.last-container{
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: column;
+	height: 300px;
+	padding: 0 25%;
+	background-image: url(../app/img3.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+
+}
+.last-text{
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+.last-header{
+	color: white;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: 1px solid white;
+	margin-bottom: 40px;
+	
+}
