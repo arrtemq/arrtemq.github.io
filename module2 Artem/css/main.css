@@ -11,17 +11,17 @@ body{
 }
 
 .main{
-	background-color: #fff;
+	background-color: #FFF5EE;
 	display: flex;
-	width: 95%;
+	width:65%;
 	max-width: 1345px;
 	margin: auto;
 	box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
 	flex-wrap: wrap;
 }
 .item{
-	height: 365px;
-	width: 650px;
+	height: 650px;
+	width: 350px;
 	
 	background-color: #DEB887;
 	margin: 5px;
@@ -41,12 +41,12 @@ h1{
 	text-align: center;
 	width: 100%;
 	padding: 35px;
-	font-family:  Times New Roman;
+	font-family:  Simphonia-Deco;
 }
 
 .img_link:hover{
 	opacity: 0.8;
-	transform: scale(1.1) rotate(1deg);
+	transform: scale(1.05);
 	z-index: 40;
 	box-shadow: 0 0 200px 30px rgba(0, 0, 0, 0.5);
 	
@@ -57,10 +57,10 @@ h1{
 }
 
 @font-face{
-	font-family: Cormorant Garamond;
-	src: url(../fonts/CormorantGaramond-Light.ttf);
+	font-family: Simphonia-Deco;
+	src: url(../fonts/Simphonia-Deco.ttf);
 }
 body{
-	font-family: Cormorant Garamond;
+	font-family: Simphonia-Deco;
 
 }
